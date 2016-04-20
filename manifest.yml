@@ -1,6 +1,6 @@
 declared-services:
-   dashDB:
-     label:dashDB-lz
+ - dashDBTest:
+      label:dashDB
       plan : Entry 
 applications:
 - path: .
