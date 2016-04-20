@@ -1,7 +1,3 @@
-declared-services:
- - dashDBTest:
-      label: dashDB
-      plan : Entry 
 applications:
 - path: .
   memory: 256M
