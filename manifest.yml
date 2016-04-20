@@ -1,7 +1,6 @@
 declared-services:
- - dashDBTest:
-      label: dashDB
-      plan: Entry 
+  dashDBTest:
+    label: dashDB
 applications:
 - path: .
   memory: 256M
@@ -10,4 +9,4 @@ applications:
   name: TestDeployButton1
   host: testdeploybutton1
   disk_quota: 1024M
-  command: npm start
+  
