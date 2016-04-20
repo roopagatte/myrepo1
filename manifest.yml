@@ -3,8 +3,8 @@ declared-services:
       label: dashDB
       plan : Entry 
 applications:
-- services:
-  - dashDBTest
+ - services:
+   - dashDBTest
    path: .
    memory: 256M
    instances: 1
