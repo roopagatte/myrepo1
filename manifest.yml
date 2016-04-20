@@ -5,10 +5,11 @@ declared-services:
 applications:
 - services:
    - dashDBTest
-   path: .
+   - path: .
    memory: 256M
    instances: 1
    domain: mybluemix.net
    name: TestDeployButton1
    host: testdeploybutton1
    disk_quota: 1024M
+   command: npm start
