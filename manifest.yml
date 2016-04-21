@@ -4,7 +4,7 @@ declared-services:
     plan: Entry
 applications:
   services:
-    dashDBTest 
+    - dashDBTest 
 - path: .
   memory: 256M
   instances: 1
